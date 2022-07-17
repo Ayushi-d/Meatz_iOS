@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "Create NEW BOX"; ObjectID = "1DC-uN-xjC"; */
+"1DC-uN-xjC.text" = "إنشاء صندوق جديد";
+
+/* Class = "UIButton"; normalTitle = "Add Box"; ObjectID = "4pr-AY-OYt"; */
+"4pr-AY-OYt.normalTitle" = "إضافة صندوق";
+
+/* Class = "UITextField"; placeholder = "Box Name"; ObjectID = "7u7-Mk-Yw1"; */
+"7u7-Mk-Yw1.placeholder" = "اسم الصندوق";
+
+/* Class = "UILabel"; text = "KWD 0.000"; ObjectID = "Dn1-r2-0zF"; */
+"Dn1-r2-0zF.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Add to Cart"; ObjectID = "Iud-74-fbR"; */
+"Iud-74-fbR.normalTitle" = "أضف الى السلة";
+
+/* Class = "UILabel"; text = "Labelxccxccdddfdd"; ObjectID = "J2u-dw-V97"; */
+"J2u-dw-V97.text" = "";
+
+/* Class = "UIButton"; normalTitle = "login"; ObjectID = "VZv-O0-yxZ"; */
+"VZv-O0-yxZ.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "LabelLabelLabelLabelLabelLabelLabelLabel"; ObjectID = "XDe-FB-0Dy"; */
+"XDe-FB-0Dy.text" = "";
+
+/* Class = "UILabel"; text = "You have to login first to perform this action !"; ObjectID = "YBo-Up-DoL"; */
+"YBo-Up-DoL.text" = "يرجى تسجيل الدخول اولاً";
+
+/* Class = "UILabel"; text = "There Is no Saved boxes yet, Please add a box & add items"; ObjectID = "aYV-t0-HIB"; */
+"aYV-t0-HIB.text" = "لا يوجد صناديق مضافة حاليا يرجى إضافة صندوق جديد" ;
+
+/* Class = "UILabel"; text = "items :"; ObjectID = "dZd-ua-afV"; */
+"dZd-ua-afV.text" = "المنتجات :";
+
+/* Class = "UILabel"; text = "Box Name"; ObjectID = "drt-5m-v9Y"; */
+"drt-5m-v9Y.text" = "";
+
+/* Class = "UILabel"; text = "LabelLabelLabelLabelLabelLabelLabel"; ObjectID = "eDI-Ur-XTb"; */
+"eDI-Ur-XTb.text" = "";
+
+/* Class = "UILabel"; text = "Quantity :"; ObjectID = "h2Q-VR-FUx"; */
+"h2Q-VR-FUx.text" = "الكمية :";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jA7-Hg-yPm"; */
+"jA7-Hg-yPm.text" = "";
+
+/* Class = "UIButton"; normalTitle = "View"; ObjectID = "kfK-Zn-GhX"; */
+"kfK-Zn-GhX.normalTitle" = "عرض";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "l9t-ax-2AY"; */
+"l9t-ax-2AY.text" = "";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "roD-9Z-5OB"; */
+"roD-9Z-5OB.text" = "";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "sUO-KJ-6jG"; */
+"sUO-KJ-6jG.text" = "";
+
+/* Class = "UILabel"; text = "There Is No Items In Box."; ObjectID = "wRI-5V-Qpy"; */
+"wRI-5V-Qpy.text" = "لا يوجد منتجات داخل الصندوق";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "xe7-Uf-8zG"; */
+"xe7-Uf-8zG.normalTitle" = "تحديث";

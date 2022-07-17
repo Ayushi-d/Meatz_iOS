@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Offers View-->
+        <scene sceneID="J5f-w6-bCC">
+            <objects>
+                <viewController storyboardIdentifier="OffersView" id="yjV-yT-2ux" customClass="OffersView" customModule="Meatz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jKo-63-6FY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AYL-fw-hWn">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQx-CP-JWo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QkR-RK-v0I" customClass="BaseView" customModule="Meatz" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="15" width="374" height="40"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Kn-IK-cjg" customClass="BaseTextField" customModule="Meatz" customModuleProvider="target">
+                                                        <rect key="frame" x="10" y="5" width="320" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderTextColor">
+                                                                <color key="value" name="Meatz-Black"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorr">
+                                                                <color key="value" name="Meatz-Black"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="9"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrx-7t-zTK">
+                                                        <rect key="frame" x="335" y="4" width="32" height="32"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="Xrx-7t-zTK" secondAttribute="height" multiplier="1:1" id="epv-qS-cRO"/>
+                                                        </constraints>
+                                                        <state key="normal" image="search"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="searchButtonTapped:" destination="yjV-yT-2ux" eventType="touchUpInside" id="6Uh-My-X0z"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="Xrx-7t-zTK" firstAttribute="top" secondItem="QkR-RK-v0I" secondAttribute="top" constant="4" id="L8E-wG-mqc"/>
+                                                    <constraint firstItem="Xrx-7t-zTK" firstAttribute="leading" secondItem="4Kn-IK-cjg" secondAttribute="trailing" constant="5" id="LXd-HO-y6M"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Xrx-7t-zTK" secondAttribute="trailing" constant="7" id="SlZ-S5-PyR"/>
+                                                    <constraint firstItem="4Kn-IK-cjg" firstAttribute="leading" secondItem="QkR-RK-v0I" secondAttribute="leading" constant="10" id="YGu-N0-wfK"/>
+                                                    <constraint firstItem="4Kn-IK-cjg" firstAttribute="top" secondItem="QkR-RK-v0I" secondAttribute="top" constant="5" id="jl3-a9-VI8"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Xrx-7t-zTK" secondAttribute="bottom" constant="4" id="k2m-OQ-dVG"/>
+                                                    <constraint firstAttribute="bottom" secondItem="4Kn-IK-cjg" secondAttribute="bottom" constant="5" id="pn5-Ba-4H1"/>
+                                                    <constraint firstAttribute="height" constant="40" id="uwo-V5-TlX"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="CCorner">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="KRR-5w-q0U">
+                                                <rect key="frame" x="10" y="70" width="394" height="728"/>
+                                                <subviews>
+                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MRL-Ul-0KT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="125"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="125" id="0Hh-fk-AdP"/>
+                                                        </constraints>
+                                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wDa-PU-iMe" customClass="LayoutCollectionView" customModule="Meatz" customModuleProvider="target">
+                                                            <size key="itemSize" width="106" height="106"/>
+                                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                            <inset key="sectionInset" minX="20" minY="10" maxX="20" maxY="0.0"/>
+                                                        </collectionViewFlowLayout>
+                                                        <cells>
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OffersCategoryCell" id="Td9-o8-J2j" customClass="OffersCategoryCell" customModule="Meatz" customModuleProvider="target">
+                                                                <rect key="frame" x="20" y="14.5" width="106" height="106"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="d8a-EN-61E">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="106" height="106"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                    <subviews>
+                                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o0q-bF-43R" customClass="BaseView" customModule="Meatz" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="106" height="106"/>
+                                                                            <subviews>
+                                                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TkL-RU-Ai8" customClass="BaseView" customModule="Meatz" customModuleProvider="target">
+                                                                                    <rect key="frame" x="4" y="4" width="98" height="98"/>
+                                                                                    <subviews>
+                                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="osL-9I-KXm">
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="98" height="98"/>
+                                                                                            <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                                                            <userDefinedRuntimeAttributes>
+                                                                                                <userDefinedRuntimeAttribute type="color" keyPath="BorderC">
+                                                                                                    <color key="value" name="Meatz-Red"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="BorderW">
+                                                                                                    <real key="value" value="0.0"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                                            </userDefinedRuntimeAttributes>
+                                                                                        </imageView>
+                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="xbd-hV-cSA" customClass="MediumLabel" customModule="Meatz" customModuleProvider="target">
+                                                                                            <rect key="frame" x="5" y="93" width="0.0" height="0.0"/>
+                                                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                                            <color key="textColor" name="Meatz-bg"/>
+                                                                                            <nil key="highlightedColor"/>
+                                                                                            <userDefinedRuntimeAttributes>
+                                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isBold" value="YES"/>
+                                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="alignmentEnabled" value="NO"/>
+                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                                    <real key="value" value="14"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                                            </userDefinedRuntimeAttributes>
+                                                                                        </label>
+                                                                                    </subviews>
+                                                                                    <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                                                    <constraints>
+                                                                                        <constraint firstAttribute="bottom" secondItem="osL-9I-KXm" secondAttribute="bottom" id="DEK-ex-HVY"/>
+                                                                                        <constraint firstItem="osL-9I-KXm" firstAttribute="leading" secondItem="TkL-RU-Ai8" secondAttribute="leading" id="PIh-Hs-7Uq"/>
+                                                                                        <constraint firstAttribute="bottom" secondItem="xbd-hV-cSA" secondAttribute="bottom" constant="5" id="ewV-RV-sbu"/>
+                                                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xbd-hV-cSA" secondAttribute="trailing" constant="2" id="pya-Uh-VWT"/>
+                                                                                        <constraint firstItem="osL-9I-KXm" firstAttribute="top" secondItem="TkL-RU-Ai8" secondAttribute="top" id="s1M-o1-OHJ"/>
+                                                                                        <constraint firstAttribute="trailing" secondItem="osL-9I-KXm" secondAttribute="trailing" id="ueB-dp-Yt4"/>
+                                                                                        <constraint firstItem="xbd-hV-cSA" firstAttribute="leading" secondItem="TkL-RU-Ai8" secondAttribute="leading" constant="5" id="vDI-Wg-kfO"/>
+                                                                                    </constraints>
+                                                                                    <userDefinedRuntimeAttributes>
+                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                            <real key="value" value="10"/>
+                                                                                        </userDefinedRuntimeAttribute>
+                                                                                    </userDefinedRuntimeAttributes>
+                                                                                </view>
+                                                                            </subviews>
+                                                                            <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="trailing" secondItem="TkL-RU-Ai8" secondAttribute="trailing" constant="4" id="14h-b1-a2J"/>
+                                                                                <constraint firstItem="TkL-RU-Ai8" firstAttribute="leading" secondItem="o0q-bF-43R" secondAttribute="leading" constant="4" id="252-iC-5Ny"/>
+                                                                                <constraint firstAttribute="bottom" secondItem="TkL-RU-Ai8" secondAttribute="bottom" constant="4" id="BaO-VM-daR"/>
+                                                                                <constraint firstItem="TkL-RU-Ai8" firstAttribute="top" secondItem="o0q-bF-43R" secondAttribute="top" constant="4" id="ujD-8z-bqH"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                    <real key="value" value="0.0"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                    <real key="value" value="10"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="CCorner">
+                                                                                    <real key="value" value="10"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                        </view>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="trailing" secondItem="o0q-bF-43R" secondAttribute="trailing" id="K2D-Mw-bpt"/>
+                                                                        <constraint firstItem="o0q-bF-43R" firstAttribute="leading" secondItem="d8a-EN-61E" secondAttribute="leading" id="KXp-fJ-mst"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="o0q-bF-43R" secondAttribute="bottom" id="o27-gb-are"/>
+                                                                        <constraint firstItem="o0q-bF-43R" firstAttribute="top" secondItem="d8a-EN-61E" secondAttribute="top" id="smf-BX-NKc"/>
+                                                                    </constraints>
+                                                                </collectionViewCellContentView>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <connections>
+                                                                    <outlet property="categoryImageView" destination="osL-9I-KXm" id="0Zl-EM-Tcs"/>
+                                                                    <outlet property="categoryNameLabel" destination="xbd-hV-cSA" id="lUS-0N-bgJ"/>
+                                                                    <outlet property="containerView" destination="o0q-bF-43R" id="gEN-po-ScW"/>
+                                                                    <outlet property="selectedBorderView" destination="TkL-RU-Ai8" id="Ulk-qP-jm9"/>
+                                                                </connections>
+                                                            </collectionViewCell>
+                                                        </cells>
+                                                    </collectionView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="YAp-5B-SAm">
+                                                        <rect key="frame" x="0.0" y="145" width="394" height="20.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjm-TE-953" customClass="MediumLabel" customModule="Meatz" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="7.5" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" name="Meatz-Red"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="14"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBi-gb-zf0" customClass="MediumLabel" customModule="Meatz" customModuleProvider="target">
+                                                                <rect key="frame" x="12.5" y="0.0" width="381.5" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" name="Maetz-Light-Red"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="14"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="210" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kRW-zn-eUO">
+                                                        <rect key="frame" x="0.0" y="185.5" width="394" height="542.5"/>
+                                                        <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                        <color key="sectionIndexBackgroundColor" name="Meatz-Gradient"/>
+                                                        <prototypes>
+                                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OfferTableViewCell" rowHeight="210" id="WTD-KM-KpR" customClass="OfferTableViewCell" customModule="Meatz" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="28" width="394" height="210"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WTD-KM-KpR" id="Qbl-S1-vCg">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="210"/>
+                                                                    <autoresizingMask key="autoresizingMask"/>
+                                                                    <subviews>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l8x-Iv-wW6">
+                                                                            <rect key="frame" x="10" y="10" width="374" height="120"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="120" id="0CH-HB-sgB"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="CCorner">
+                                                                                    <real key="value" value="10"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                        </imageView>
+                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7tm-Cx-PYG">
+                                                                            <rect key="frame" x="10" y="138" width="374" height="51"/>
+                                                                            <subviews>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1e-Kh-Cdx" customClass="MediumLabel" customModule="Meatz" customModuleProvider="target">
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="41.5" height="20.5"/>
+                                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                                    <nil key="textColor"/>
+                                                                                    <nil key="highlightedColor"/>
+                                                                                    <userDefinedRuntimeAttributes>
+                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                            <real key="value" value="16"/>
+                                                                                        </userDefinedRuntimeAttribute>
+                                                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                                    </userDefinedRuntimeAttributes>
+                                                                                </label>
+                                                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="lC8-mf-ACY">
+                                                                                    <rect key="frame" x="0.0" y="30.5" width="211" height="20.5"/>
+                                                                                    <subviews>
+                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGj-g7-3f2" customClass="MediumLabel" customModule="Meatz" customModuleProvider="target">
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="7.5" height="20.5"/>
+                                                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                                            <color key="textColor" name="Maetz-Light-Red"/>
+                                                                                            <nil key="highlightedColor"/>
+                                                                                            <userDefinedRuntimeAttributes>
+                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                                    <real key="value" value="14"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                                            </userDefinedRuntimeAttributes>
+                                                                                        </label>
+                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="persons ." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EuA-wJ-Duu" customClass="MediumLabel" customModule="Meatz" customModuleProvider="target">
+                                                                                            <rect key="frame" x="14.5" y="0.0" width="70.5" height="20.5"/>
+                                                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                                            <color key="textColor" name="Maetz-Light-Red"/>
+                                                                                            <nil key="highlightedColor"/>
+                                                                                            <userDefinedRuntimeAttributes>
+                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                                    <real key="value" value="14"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                                            </userDefinedRuntimeAttributes>
+                                                                                        </label>
+                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KDW 150" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itv-3u-VaI" customClass="MediumLabel" customModule="Meatz" customModuleProvider="target">
+                                                                                            <rect key="frame" x="92" y="0.0" width="70.5" height="20.5"/>
+                                                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                                            <color key="textColor" name="Maetz-Light-Red"/>
+                                                                                            <nil key="highlightedColor"/>
+                                                                                            <userDefinedRuntimeAttributes>
+                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                                    <real key="value" value="14"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                                            </userDefinedRuntimeAttributes>
+                                                                                        </label>
+                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEp-LB-HZ3" customClass="BaseLabel" customModule="Meatz" customModuleProvider="target">
+                                                                                            <rect key="frame" x="169.5" y="0.0" width="41.5" height="20.5"/>
+                                                                                            <attributedString key="attributedText">
+                                                                                                <fragment content="Label">
+                                                                                                    <attributes>
+                                                                                                        <color key="NSColor" name="Meatz-Black"/>
+                                                                                                        <font key="NSFont" metaFont="system" size="17"/>
+                                                                                                        <integer key="NSStrikethrough" value="1"/>
+                                                                                                    </attributes>
+                                                                                                </fragment>
+                                                                                            </attributedString>
+                                                                                            <nil key="highlightedColor"/>
+                                                                                            <userDefinedRuntimeAttributes>
+                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                                    <real key="value" value="12"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                                            </userDefinedRuntimeAttributes>
+                                                                                        </label>
+                                                                                    </subviews>
+                                                                                </stackView>
+                                                                            </subviews>
+                                                                        </stackView>
+                                                                    </subviews>
+                                                                    <constraints>
+                                                                        <constraint firstItem="l8x-Iv-wW6" firstAttribute="top" secondItem="Qbl-S1-vCg" secondAttribute="top" constant="10" id="Krp-DJ-KTY"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="l8x-Iv-wW6" secondAttribute="trailing" constant="10" id="W8m-ZB-DkZ"/>
+                                                                        <constraint firstItem="l8x-Iv-wW6" firstAttribute="leading" secondItem="Qbl-S1-vCg" secondAttribute="leading" constant="10" id="Zy7-8F-Dro"/>
+                                                                        <constraint firstItem="7tm-Cx-PYG" firstAttribute="leading" secondItem="Qbl-S1-vCg" secondAttribute="leading" constant="10" id="t3c-0Z-4dX"/>
+                                                                        <constraint firstItem="7tm-Cx-PYG" firstAttribute="top" secondItem="l8x-Iv-wW6" secondAttribute="bottom" constant="8" id="x0y-NK-dA3"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="7tm-Cx-PYG" secondAttribute="trailing" constant="10" id="z0b-Oa-Gu2"/>
+                                                                    </constraints>
+                                                                </tableViewCellContentView>
+                                                                <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                                <connections>
+                                                                    <outlet property="OfferNameLabel" destination="m1e-Kh-Cdx" id="Wh8-rS-rCn"/>
+                                                                    <outlet property="numberOfPersonLabel" destination="iGj-g7-3f2" id="U7i-Zs-TiJ"/>
+                                                                    <outlet property="offerImageView" destination="l8x-Iv-wW6" id="68h-Qi-4iX"/>
+                                                                    <outlet property="offerMainPriceLabel" destination="Itv-3u-VaI" id="pcH-oZ-kWC"/>
+                                                                    <outlet property="offerPriceLabel" destination="EEp-LB-HZ3" id="9dK-xp-mTU"/>
+                                                                </connections>
+                                                            </tableViewCell>
+                                                        </prototypes>
+                                                    </tableView>
+                                                </subviews>
+                                                <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                <color key="tintColor" name="Meatz-Gradient"/>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="Meatz-Gradient"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="KRR-5w-q0U" secondAttribute="bottom" constant="20" id="2Ep-5p-fMP"/>
+                                            <constraint firstAttribute="trailing" secondItem="KRR-5w-q0U" secondAttribute="trailing" constant="10" id="5cS-mv-c8W"/>
+                                            <constraint firstItem="QkR-RK-v0I" firstAttribute="leading" secondItem="BQx-CP-JWo" secondAttribute="leading" constant="20" id="EDE-Fv-9sC"/>
+                                            <constraint firstItem="KRR-5w-q0U" firstAttribute="top" secondItem="QkR-RK-v0I" secondAttribute="bottom" constant="15" id="Mo4-I8-M0G"/>
+                                            <constraint firstItem="KRR-5w-q0U" firstAttribute="leading" secondItem="BQx-CP-JWo" secondAttribute="leading" constant="10" id="NUT-gq-fMw"/>
+                                            <constraint firstItem="QkR-RK-v0I" firstAttribute="top" secondItem="BQx-CP-JWo" secondAttribute="top" constant="15" id="q1Y-NW-Njp"/>
+                                            <constraint firstAttribute="trailing" secondItem="QkR-RK-v0I" secondAttribute="trailing" constant="20" id="wMW-ZY-xan"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" name="Meatz-Gradient"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="BQx-CP-JWo" secondAttribute="bottom" id="B9l-iU-92n"/>
+                                    <constraint firstItem="BQx-CP-JWo" firstAttribute="leading" secondItem="AYL-fw-hWn" secondAttribute="leading" id="BcZ-wV-yA9"/>
+                                    <constraint firstAttribute="trailing" secondItem="BQx-CP-JWo" secondAttribute="trailing" id="Beg-bB-nWY"/>
+                                    <constraint firstItem="BQx-CP-JWo" firstAttribute="top" secondItem="AYL-fw-hWn" secondAttribute="top" id="iNR-PS-wX2"/>
+                                    <constraint firstItem="BQx-CP-JWo" firstAttribute="width" secondItem="AYL-fw-hWn" secondAttribute="width" id="y5y-lR-wVl"/>
+                                    <constraint firstItem="BQx-CP-JWo" firstAttribute="height" secondItem="AYL-fw-hWn" secondAttribute="height" id="zPy-3S-6ww"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0kY-Yj-UDG"/>
+                        <color key="backgroundColor" name="Meatz-Gradient"/>
+                        <constraints>
+                            <constraint firstItem="AYL-fw-hWn" firstAttribute="top" secondItem="0kY-Yj-UDG" secondAttribute="top" id="L2p-dV-PtU"/>
+                            <constraint firstItem="AYL-fw-hWn" firstAttribute="trailing" secondItem="0kY-Yj-UDG" secondAttribute="trailing" id="Qhl-z2-ID0"/>
+                            <constraint firstItem="AYL-fw-hWn" firstAttribute="bottom" secondItem="0kY-Yj-UDG" secondAttribute="bottom" id="ZkA-Er-5Fn"/>
+                            <constraint firstItem="AYL-fw-hWn" firstAttribute="leading" secondItem="0kY-Yj-UDG" secondAttribute="leading" id="g0N-be-mMM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="categoryCollectionView" destination="MRL-Ul-0KT" id="GE1-Rn-OcV"/>
+                        <outlet property="numberOfResultsLabel" destination="wjm-TE-953" id="CIR-e6-EVX"/>
+                        <outlet property="offersTableView" destination="kRW-zn-eUO" id="YPe-fO-rl2"/>
+                        <outlet property="resultFoundView" destination="YAp-5B-SAm" id="vRa-DH-2CQ"/>
+                        <outlet property="searchTextField" destination="4Kn-IK-cjg" id="5HK-DN-XXm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRd-2l-QR5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="247.82608695652175" y="19.419642857142858"/>
+        </scene>
+        <!--Offer Details View-->
+        <scene sceneID="LDx-on-Oop">
+            <objects>
+                <viewController storyboardIdentifier="OfferDetailsView" id="O0I-9x-Lvw" customClass="OfferDetailsView" customModule="Meatz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YXz-UQ-MgD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPr-6A-SOJ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="700"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1C3-WY-RGM">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="700"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pse-ot-5op" customClass="ZSlider" customModule="Meatz" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="172"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="172" id="mSA-m9-nrN"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Q5o-Ty-FT9">
+                                                <rect key="frame" x="146" y="177" width="122.5" height="27.5"/>
+                                                <color key="pageIndicatorTintColor" name="Meatz-Red"/>
+                                                <color key="currentPageIndicatorTintColor" name="Maetz-Light-Red"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </pageControl>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="rlm-lE-EYp">
+                                                <rect key="frame" x="20" y="220.5" width="374" height="148"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                             " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1v-zT-Oa6" customClass="MediumLabel" customModule="Meatz" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="126.5" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="cBY-Qc-HhV"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" name="Meatz-Black"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="22"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="E4S-nb-cx7">
+                                                        <rect key="frame" x="0.0" y="41" width="108.5" height="30"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="          " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3h-Mx-jhS" customClass="BoldLabel" customModule="Meatz" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="43.5" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="30" id="Nhs-5K-H5X"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" name="Maetz-Light-Red"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="22"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkA-G3-bWQ" customClass="BaseLabel" customModule="Meatz" customModuleProvider="target">
+                                                                <rect key="frame" x="51.5" y="0.0" width="57" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="30" id="dvf-s7-ahS"/>
+                                                                </constraints>
+                                                                <attributedString key="attributedText">
+                                                                    <fragment content="             ">
+                                                                        <attributes>
+                                                                            <color key="NSColor" name="Meatz-Black"/>
+                                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            <integer key="NSStrikethrough" value="1"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                </attributedString>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="18"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ohz-HP-Gph">
+                                                        <rect key="frame" x="0.0" y="82" width="96" height="25"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                      " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thn-ZK-w4n" customClass="BoldLabel" customModule="Meatz" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="96" height="25"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="25" id="gwf-7y-b1E"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" name="Maetz-Light-Red"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="22"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tmv-A3-KJk">
+                                                        <rect key="frame" x="0.0" y="118" width="114" height="30"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pC4-aL-yWx">
+                                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="30" id="al1-2l-in7"/>
+                                                                    <constraint firstAttribute="width" constant="30" id="fWd-zw-VkO"/>
+                                                                </constraints>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="CCorner">
+                                                                        <real key="value" value="5"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ub5-jT-UHR" customClass="MediumLabel" customModule="Meatz" customModuleProvider="target">
+                                                                <rect key="frame" x="40" y="5" width="74" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" name="Meatz-Black"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="14"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </stackView>
+                                                </subviews>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </stackView>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fes-Sl-zqX">
+                                                <rect key="frame" x="0.0" y="388.5" width="414" height="301.5"/>
+                                                <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                <prototypes>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OfferDetailsTableViewCell" id="G4d-Sk-7IO" customClass="OfferDetailsTableViewCell" customModule="Meatz" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="28" width="414" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G4d-Sk-7IO" id="KN8-x5-pt5">
+                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse 19" translatesAutoresizingMaskIntoConstraints="NO" id="K5x-R1-whQ">
+                                                                    <rect key="frame" x="20" y="11" width="14" height="14"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="14" id="3IE-Ne-q7P"/>
+                                                                        <constraint firstAttribute="width" constant="14" id="w0M-b7-i4U"/>
+                                                                    </constraints>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZB5-il-zAJ" customClass="BaseLabel" customModule="Meatz" customModuleProvider="target">
+                                                                    <rect key="frame" x="39" y="1" width="350" height="33"/>
+                                                                    <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                            <real key="value" value="14"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </label>
+                                                            </subviews>
+                                                            <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                            <constraints>
+                                                                <constraint firstItem="K5x-R1-whQ" firstAttribute="leading" secondItem="KN8-x5-pt5" secondAttribute="leadingMargin" id="7vF-Nu-2Dc"/>
+                                                                <constraint firstAttribute="trailingMargin" secondItem="ZB5-il-zAJ" secondAttribute="trailing" constant="5" id="G3B-eD-v1V"/>
+                                                                <constraint firstItem="ZB5-il-zAJ" firstAttribute="leading" secondItem="K5x-R1-whQ" secondAttribute="trailing" constant="5" id="cbh-II-5BZ"/>
+                                                                <constraint firstItem="K5x-R1-whQ" firstAttribute="top" secondItem="KN8-x5-pt5" secondAttribute="topMargin" id="dP9-pg-d5s"/>
+                                                                <constraint firstAttribute="bottomMargin" secondItem="ZB5-il-zAJ" secondAttribute="bottom" constant="5" id="ovM-41-sND"/>
+                                                                <constraint firstItem="ZB5-il-zAJ" firstAttribute="top" secondItem="KN8-x5-pt5" secondAttribute="topMargin" constant="-10" id="vot-dZ-lmo"/>
+                                                            </constraints>
+                                                        </tableViewCellContentView>
+                                                        <color key="backgroundColor" name="Meatz-Gradient"/>
+                                                        <connections>
+                                                            <outlet property="contentLabel" destination="ZB5-il-zAJ" id="lpR-pf-JrD"/>
+                                                        </connections>
+                                                    </tableViewCell>
+                                                </prototypes>
+                                            </tableView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="Meatz-Gradient"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="rlm-lE-EYp" secondAttribute="trailing" constant="20" id="10w-9I-DsL"/>
+                                            <constraint firstItem="fes-Sl-zqX" firstAttribute="top" secondItem="rlm-lE-EYp" secondAttribute="bottom" constant="20" id="3Tz-Tg-sq1"/>
+                                            <constraint firstItem="fes-Sl-zqX" firstAttribute="leading" secondItem="1C3-WY-RGM" secondAttribute="leading" id="CmN-ZM-iYD"/>
+                                            <constraint firstItem="Pse-ot-5op" firstAttribute="leading" secondItem="1C3-WY-RGM" secondAttribute="leading" id="EMq-sd-CKE"/>
+                                            <constraint firstItem="rlm-lE-EYp" firstAttribute="leading" secondItem="1C3-WY-RGM" secondAttribute="leading" constant="20" id="ISd-ZZ-XtA"/>
+                                            <constraint firstItem="Q5o-Ty-FT9" firstAttribute="centerX" secondItem="1C3-WY-RGM" secondAttribute="centerX" id="PaC-nJ-uka"/>
+                                            <constraint firstItem="Q5o-Ty-FT9" firstAttribute="top" secondItem="Pse-ot-5op" secondAttribute="bottom" constant="5" id="Sbl-m1-kyK"/>
+                                            <constraint firstItem="Q5o-Ty-FT9" firstAttribute="bottom" secondItem="rlm-lE-EYp" secondAttribute="top" constant="-16" id="Zuq-FA-UXJ"/>
+                                            <constraint firstItem="Pse-ot-5op" firstAttribute="top" secondItem="1C3-WY-RGM" secondAttribute="top" id="cAK-hO-F6t"/>
+                                            <constraint firstAttribute="trailing" secondItem="Pse-ot-5op" secondAttribute="trailing" id="hgD-uW-OK5"/>
+                                            <constraint firstAttribute="trailing" secondItem="fes-Sl-zqX" secondAttribute="trailing" id="pMn-HT-oo0"/>
+                                            <constraint firstAttribute="bottom" secondItem="fes-Sl-zqX" secondAttribute="bottom" constant="10" id="pWm-TL-BRE"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" name="Meatz-Gradient"/>
+                                <constraints>
+                                    <constraint firstItem="1C3-WY-RGM" firstAttribute="top" secondItem="bPr-6A-SOJ" secondAttribute="top" id="29I-zo-MKt"/>
+                                    <constraint firstAttribute="trailing" secondItem="1C3-WY-RGM" secondAttribute="trailing" id="51X-KO-pRE"/>
+                                    <constraint firstAttribute="bottom" secondItem="1C3-WY-RGM" secondAttribute="bottom" id="C83-bs-LJv"/>
+                                    <constraint firstItem="1C3-WY-RGM" firstAttribute="leading" secondItem="bPr-6A-SOJ" secondAttribute="leading" id="S3l-08-Seg"/>
+                                    <constraint firstItem="1C3-WY-RGM" firstAttribute="height" secondItem="bPr-6A-SOJ" secondAttribute="height" id="lWf-zw-bgm"/>
+                                    <constraint firstItem="1C3-WY-RGM" firstAttribute="width" secondItem="bPr-6A-SOJ" secondAttribute="width" id="nwc-Iw-dR7"/>
+                                </constraints>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9XQ-Wb-kzI">
+                                <rect key="frame" x="0.0" y="744" width="414" height="118"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="aJh-Za-7on">
+                                        <rect key="frame" x="150" y="20" width="114.5" height="20"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A8-a9-VYN">
+                                                <rect key="frame" x="0.0" y="0.0" width="9" height="20"/>
+                                                <state key="normal" image="Icon awesome-minus"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="minusButtonTapped:" destination="O0I-9x-Lvw" eventType="touchUpInside" id="Bkd-QJ-2ur"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOS-3f-Kzy" customClass="BoldLabel" customModule="Meatz" customModuleProvider="target">
+                                                <rect key="frame" x="49" y="0.0" width="7.5" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" name="Meatz-Red"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cll-GO-azq">
+                                                <rect key="frame" x="96.5" y="0.0" width="18" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="FtY-bC-SI8"/>
+                                                </constraints>
+                                                <state key="normal" image="Icon open-plus"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="plusCartButtonTapped:" destination="O0I-9x-Lvw" eventType="touchUpInside" id="QEn-KS-Ud0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0LW-tI-KEg">
+                                        <rect key="frame" x="0.0" y="60" width="414" height="58"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4z-9S-Zpz" customClass="BaseLabel" customModule="Meatz" customModuleProvider="target">
+                                                <rect key="frame" x="10" y="19" width="15.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" name="Maetz-Light-Red"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="18"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvl-YD-bBS" customClass="BoldButton" customModule="Meatz" customModuleProvider="target">
+                                                <rect key="frame" x="280" y="0.0" width="124" height="58"/>
+                                                <state key="normal" title="Add to cart">
+                                                    <color key="titleColor" name="Meatz-Gradient"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="18"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="addToCartButtonTapped:" destination="O0I-9x-Lvw" eventType="touchUpInside" id="zVZ-sR-HNa"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" name="Meatz-Red"/>
+                                        <constraints>
+                                            <constraint firstItem="tvl-YD-bBS" firstAttribute="top" secondItem="0LW-tI-KEg" secondAttribute="top" id="GIh-b0-F4G"/>
+                                            <constraint firstItem="f4z-9S-Zpz" firstAttribute="centerY" secondItem="0LW-tI-KEg" secondAttribute="centerY" id="MBm-nT-Qce"/>
+                                            <constraint firstItem="f4z-9S-Zpz" firstAttribute="leading" secondItem="0LW-tI-KEg" secondAttribute="leading" constant="10" id="RJo-XZ-LYW"/>
+                                            <constraint firstAttribute="trailing" secondItem="tvl-YD-bBS" secondAttribute="trailing" constant="10" id="RmZ-6Z-WPp"/>
+                                            <constraint firstAttribute="bottom" secondItem="tvl-YD-bBS" secondAttribute="bottom" id="e36-RN-w7r"/>
+                                            <constraint firstAttribute="height" constant="58" id="eS5-bW-dZ1"/>
+                                            <constraint firstItem="tvl-YD-bBS" firstAttribute="width" secondItem="0LW-tI-KEg" secondAttribute="width" multiplier="0.3" id="pm2-54-b19"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" name="Meatz-Gradient"/>
+                                <constraints>
+                                    <constraint firstItem="0LW-tI-KEg" firstAttribute="leading" secondItem="9XQ-Wb-kzI" secondAttribute="leading" id="1I9-He-7eM"/>
+                                    <constraint firstItem="0LW-tI-KEg" firstAttribute="top" secondItem="aJh-Za-7on" secondAttribute="bottom" constant="20" id="CMT-hN-qQj"/>
+                                    <constraint firstAttribute="bottom" secondItem="0LW-tI-KEg" secondAttribute="bottom" id="OpR-fB-dmi"/>
+                                    <constraint firstItem="aJh-Za-7on" firstAttribute="top" secondItem="9XQ-Wb-kzI" secondAttribute="top" constant="20" id="UFV-zc-E84"/>
+                                    <constraint firstAttribute="trailing" secondItem="0LW-tI-KEg" secondAttribute="trailing" id="eyL-uB-TFu"/>
+                                    <constraint firstItem="aJh-Za-7on" firstAttribute="centerX" secondItem="9XQ-Wb-kzI" secondAttribute="centerX" id="oQG-Bw-gTe"/>
+                                    <constraint firstAttribute="bottom" secondItem="0LW-tI-KEg" secondAttribute="bottom" id="xYQ-vY-sfR"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="withShimmer" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3he-ux-FCQ"/>
+                        <color key="backgroundColor" name="Meatz-Gradient"/>
+                        <constraints>
+                            <constraint firstItem="9XQ-Wb-kzI" firstAttribute="trailing" secondItem="3he-ux-FCQ" secondAttribute="trailing" id="QqZ-gD-cYL"/>
+                            <constraint firstItem="9XQ-Wb-kzI" firstAttribute="bottom" secondItem="3he-ux-FCQ" secondAttribute="bottom" id="Sma-Wy-1TZ"/>
+                            <constraint firstItem="bPr-6A-SOJ" firstAttribute="top" secondItem="3he-ux-FCQ" secondAttribute="top" id="dMF-lz-1xL"/>
+                            <constraint firstItem="9XQ-Wb-kzI" firstAttribute="leading" secondItem="3he-ux-FCQ" secondAttribute="leading" id="ekJ-fx-6HK"/>
+                            <constraint firstItem="bPr-6A-SOJ" firstAttribute="leading" secondItem="3he-ux-FCQ" secondAttribute="leading" id="gQ1-Dk-wPd"/>
+                            <constraint firstItem="9XQ-Wb-kzI" firstAttribute="top" secondItem="bPr-6A-SOJ" secondAttribute="bottom" id="siU-du-yNg"/>
+                            <constraint firstItem="3he-ux-FCQ" firstAttribute="trailing" secondItem="bPr-6A-SOJ" secondAttribute="trailing" id="yMu-cF-beA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addToCartView" destination="9XQ-Wb-kzI" id="Xk0-F2-wzT"/>
+                        <outlet property="cartCountLabel" destination="uOS-3f-Kzy" id="km2-mo-ien"/>
+                        <outlet property="cartPriceLabel" destination="f4z-9S-Zpz" id="SUF-aq-Ted"/>
+                        <outlet property="detailsTableView" destination="fes-Sl-zqX" id="9gM-PJ-gfU"/>
+                        <outlet property="mainPriceLabel" destination="M3h-Mx-jhS" id="wBb-hJ-1Tt"/>
+                        <outlet property="numberOfPersonesLabel" destination="thn-ZK-w4n" id="4PZ-Iq-8jR"/>
+                        <outlet property="offerNameLabel" destination="Q1v-zT-Oa6" id="pqg-Ya-yZl"/>
+                        <outlet property="offerPriceLabel" destination="fkA-G3-bWQ" id="K8N-Pl-E8E"/>
+                        <outlet property="pageControler" destination="Q5o-Ty-FT9" id="XpC-IU-WoG"/>
+                        <outlet property="sliderShow" destination="Pse-ot-5op" id="eYa-n3-Cuv"/>
+                        <outlet property="sroreImageView" destination="pC4-aL-yWx" id="VT0-me-7eC"/>
+                        <outlet property="storeNameLabel" destination="Ub5-jT-UHR" id="zcc-JC-BTV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SNc-un-JK2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901" y="23"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="4Kn-IK-cjg">
+            <size key="intrinsicContentSize" width="78.5" height="22"/>
+        </designable>
+        <designable name="EEp-LB-HZ3">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+        <designable name="EuA-wJ-Duu">
+            <size key="intrinsicContentSize" width="70.5" height="20.5"/>
+        </designable>
+        <designable name="FBi-gb-zf0">
+            <size key="intrinsicContentSize" width="100" height="20.5"/>
+        </designable>
+        <designable name="Itv-3u-VaI">
+            <size key="intrinsicContentSize" width="70.5" height="20.5"/>
+        </designable>
+        <designable name="M3h-Mx-jhS">
+            <size key="intrinsicContentSize" width="43.5" height="20.5"/>
+        </designable>
+        <designable name="Q1v-zT-Oa6">
+            <size key="intrinsicContentSize" width="126.5" height="20.5"/>
+        </designable>
+        <designable name="Ub5-jT-UHR">
+            <size key="intrinsicContentSize" width="74" height="20.5"/>
+        </designable>
+        <designable name="ZB5-il-zAJ">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+        <designable name="f4z-9S-Zpz">
+            <size key="intrinsicContentSize" width="15.5" height="20.5"/>
+        </designable>
+        <designable name="fkA-G3-bWQ">
+            <size key="intrinsicContentSize" width="57" height="20.5"/>
+        </designable>
+        <designable name="iGj-g7-3f2">
+            <size key="intrinsicContentSize" width="7.5" height="20.5"/>
+        </designable>
+        <designable name="m1e-Kh-Cdx">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+        <designable name="thn-ZK-w4n">
+            <size key="intrinsicContentSize" width="96" height="20.5"/>
+        </designable>
+        <designable name="tvl-YD-bBS">
+            <size key="intrinsicContentSize" width="85" height="33"/>
+        </designable>
+        <designable name="uOS-3f-Kzy">
+            <size key="intrinsicContentSize" width="7.5" height="20.5"/>
+        </designable>
+        <designable name="wjm-TE-953">
+            <size key="intrinsicContentSize" width="7.5" height="20.5"/>
+        </designable>
+        <designable name="xbd-hV-cSA"/>
+    </designables>
+    <resources>
+        <image name="Ellipse 19" width="14" height="14"/>
+        <image name="Icon awesome-minus" width="9" height="5"/>
+        <image name="Icon open-plus" width="18" height="18"/>
+        <image name="search" width="32" height="32"/>
+        <namedColor name="Maetz-Light-Red">
+            <color red="0.94509803921568625" green="0.47058823529411764" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Meatz-Black">
+            <color red="0.16500000655651093" green="0.16899999976158142" blue="0.16500000655651093" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Meatz-Gradient">
+            <color red="0.8784313725490196" green="0.85490196078431369" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Meatz-Red">
+            <color red="0.23921568627450981" green="0.25490196078431371" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Meatz-bg">
+            <color red="0.8784313725490196" green="0.85490196078431369" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

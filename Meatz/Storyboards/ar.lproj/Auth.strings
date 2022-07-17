@@ -1,0 +1,83 @@
+
+/* Class = "UILabel"; text = "LOGIN"; ObjectID = "2Pc-Ua-Wez"; */
+"2Pc-Ua-Wez.text" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "6TL-hY-SOE"; */
+"6TL-hY-SOE.text" = "او";
+
+/* Class = "UIButton"; normalTitle = "Signin"; ObjectID = "9UG-wW-mtu"; */
+"9UG-wW-mtu.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "BO1-Dv-gU7"; */
+"BO1-Dv-gU7.placeholder" = "البريد الإلكترونى";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "GSM-Tf-qLo"; */
+"GSM-Tf-qLo.text" = "لا تملك حساب؟";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "HHw-ou-wCs"; */
+"HHw-ou-wCs.normalTitle" = "نسيت كلمة المرور؟";
+
+/* Class = "UILabel"; text = "FORGOT PASSWORD"; ObjectID = "K9Q-lN-XOO"; */
+"K9Q-lN-XOO.text" = "نسيت كلمة المرور؟";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "Nm8-iw-ZrN"; */
+"Nm8-iw-ZrN.text" = "او";
+
+/* Class = "UILabel"; text = "REGISTER"; ObjectID = "Q0Z-tW-oZg"; */
+"Q0Z-tW-oZg.text" = "تسجيل";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "QTs-kO-Sge"; */
+"QTs-kO-Sge.placeholder" = "رقم الهاتف";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "RQj-wD-A7h"; */
+"RQj-wD-A7h.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Register now"; ObjectID = "VFh-nl-XpB"; */
+"VFh-nl-XpB.normalTitle" = " سجل الآن";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "VHL-HS-I5z"; */
+"VHL-HS-I5z.text" = "هل لديك حساب ؟";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "VOo-9p-bc1"; */
+"VOo-9p-bc1.placeholder" = "الاسم الأول";
+
+/* Class = "UIButton"; normalTitle = "Continue as guest"; ObjectID = "XmD-dP-LLl"; */
+"XmD-dP-LLl.normalTitle" = "الاستمرار كزائر";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "ZBe-EC-1ic"; */
+"ZBe-EC-1ic.placeholder" = "الاسم الأخير";
+
+/* Class = "UIButton"; normalTitle = "Send Password"; ObjectID = "bg9-bU-BUk"; */
+"bg9-bU-BUk.normalTitle" = "إرسال كلمة المرور";
+
+/* Class = "UILabel"; text = "Please enter the email address which you registered here"; ObjectID = "bkG-sI-0hl"; */
+"bkG-sI-0hl.text" = "يرجى إدخال عنوان البريد الإلكترونى الذي قمت بالتسجيل به";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "fiB-bb-6Lg"; */
+"fiB-bb-6Lg.normalTitle" = "تسجيل";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "gGJ-71-D0u"; */
+"gGJ-71-D0u.placeholder" = "البريد الإلكترونى";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "lcb-3g-xK2"; */
+"lcb-3g-xK2.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "Login through"; ObjectID = "mT8-vM-EtO"; */
+"mT8-vM-EtO.text" = "تسجيل الدخول من خلال";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "nnL-AH-5xn"; */
+"nnL-AH-5xn.text" = "او";
+
+/* Class = "UILabel"; text = "I accept all privacy policies and terms & conditions of. Meatz"; ObjectID = "p1V-Iy-lEi"; */
+"p1V-Iy-lEi.text" = "أوافق علي جميع سياسات الخصوصية و الشروط و الأحكام
+تسجيل
+";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "rmp-bI-4oJ"; */
+"rmp-bI-4oJ.placeholder" = "تأكيد كلمة المرور";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "uJX-AB-0gS"; */
+"uJX-AB-0gS.placeholder" = "البريد الإلكترونى ";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "v2A-4P-4th"; */
+"v2A-4P-4th.placeholder" = "كلمة المرور";

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>811030819013-usfu18cqeunk0k1j5t53akc99cafk82f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.811030819013-usfu18cqeunk0k1j5t53akc99cafk82f</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>811030819013-7fakabllnqqcsnggdspk10qb0hrac7vn.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBOPgiRgGm6Oizzv6o64MrP1l3qtURR5NA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>811030819013</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kw.com.app.meatz</string>
+	<key>PROJECT_ID</key>
+	<string>meatz-a924e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meatz-a924e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:811030819013:ios:92091f55d6dc4901c100ac</string>
+</dict>
+</plist>

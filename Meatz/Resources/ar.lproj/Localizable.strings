@@ -1,0 +1,151 @@
+/* 
+  Localizable.strings
+  Meatz
+
+  Created by Mohamed Zead on 3/22/21.
+  
+*/
+"theItems" = "المنتجات";
+"shop" = "متجر";
+"TheShops" = "العروض";
+"home" = "الرئيسية";
+"Shops" = "متاجر";
+"My Boxes" = "صندوقي";
+"Profile" = "حسابى";
+"Settings" = "الإعدادات";
+"kwd" = "د.ك";
+"Meat" = "لحوم";
+"Poultry" = "دجاج";
+"Fish" = "اسماك";
+"Error" = "خطأ";
+"Ok" = "موافق";
+"Items" = "منتج";
+"Price (High to Low)" = "السعر الأعلى للأقل";
+"Price (Low to High)" = "السعر الأقل للأعلى";
+"Newest" = "الأحدث";
+"Persons" = "أشخاص";
+"shop available" = "متجر متاح";
+"Available" = "متاح";
+"See More" = "مشاهدة المزيد";
+"Confirmation" = "تأكيد";
+"Password sent" = "تم ارسال كلمه المرور";
+"Edit Profile" = "تعديل حسابى";
+"My Orders" = "طلباتى";
+"Wishlist" = "المفضلة";
+"My Address" = "عناوينى";
+"Change Password" = "تغيير كلمة المرور";
+"Logout" = "تسجيل الخروج";
+"Yes" = "نعم";
+"Profile Updated" = "تم تعديل الحساب ";
+"Password Changed" = "تم تغيير كلمة المرور";
+"Remove item" = "حذف منتج";
+"Saved Addresses" = "عناوين محفوظة";
+"BLOCK" = "قطعه";
+"STREET" = "شارع";
+"BUILDING" = "المبنى";
+"FLOOR" = "الطابق";
+"Delete address" = "حذف العنوان";
+"itemsCountLabel" = "المنتجات:";
+"quantityLabel" = "الكمية :";
+"N/A" = "غير متوفر";
+"Add to My Box" = "أضف الى صندوقى";
+"Add Box" = "إضافة صندوق";
+"Clear" = "حذف";
+"Cart" = "سله المشتريات";
+"Cash on Delivery" = "الدفع عند الاستلام";
+"Online" = "أونلاين";
+"Login" = "تسجيل الدخول";
+// Messages
+"Something wen wrong!" = "حدث خطأ ما";
+"There are no products" = "لا توجد منتجات";
+"There are no shops" = "لا يوجد متاجر";
+"There are no notifications" = "لا يوجد إشعارات";
+"No Result Found!" = "لا يوجد نتائج!";
+"Are you sure you want to logout" = "هل انت متأكد أنك تريد تسجيل الخروج";
+"max prdct count" = "لقد وصلت لأقصي كمية من هذا المنتج";
+"profileGuestMessage" = "من لك قم بتسجيل الدخول اولاً";
+"whishlist remove item message" = "هل انت متأكد من حذف منتج من المفضلة";
+"boxesEmptyMessage" = "لا يوجد صناديق مضافة حاليا\n يرجى إضافة صندوق جديد";
+"Please login first" = "من فضلك قم بتسجيل الدخول اولاً";
+"Please add a Box for adding the product in box." = "يرجى إضافة صندوق جديد لإضافة المنتج";
+//login
+"wrong email address/password" = "البريد الإلكترونى أو كلمة المرور غير صحيحة";
+"Please enter your email" = "يرجى إدخال البريد الإلكترونى";
+"Please enter your password" = "يرجى إدخال كلمة المرور";
+"Please enter a valid email" = "يرجى إدخال بريد إلكترونى صحيح";
+//register
+"Please enter your first name" = "يرجى إدخال الاسم الأول";
+"Please enter your last name" = "يرجى إدخال الاسم الأخير";
+"Please enter your phone" = "يرجى إدخال رقم الهاتف";
+"phoneLengthValidation" = "يرجى إدخال رقم هاتف مكون من 8 أرقام فقط";
+"passLengthValidation" = "كلمة المرور يجب ألا تقل عن 8 أحرف ";
+"Please enter confirmed password" = "يرجى إدخال تأكيد كلمة المرور";
+"passMatching" = "تأكيد كلمة المرور لا تتطابق مع كلمة المرور";
+"termsAcceptValidation" = "يرجى الموافقة على سياسة الخصوصية والشروط والأحكام";
+//change password
+//"Please enter old password" = "يرجى إدخال كلمة المرور القديمة(يجب ألا تقل عن ٨ حروف أو أرقام)";
+//"Please enter new password" = "(يجب ألا تقل عن ٨ حروف أو أرقام)يرجى إدخال كلمة المرور الجديدة";
+
+"Please enter old password" = "يرجى إدخال كلمة المرور القديمة (يجب ألا تقل عن ٨ أحرف)";
+
+"Please enter new password" = "يرجى إدخال كلمة المرور الجديدة (يجب ألا تقل عن ٨ أحرف)";
+
+"Please enter new confirmed password" = "يرجى إدخال تأكيد كلمة المرور";
+//Address
+"addressRemovalMessage" = "هل أنت متأكد من حذف العنوان؟";
+"Please enter address name" = "يرجى إدخال اسم العنوان";
+"Please select area" = "يرجى اختيار المنطقة";
+"Please enter block" = "يرجى إدخال القطعة";
+"Please enter street  no" = "يرجى إدخال الشارع";
+"Please enter house no" = "يرجى إدخال رقم المبنى";
+"Please enter floor no" = "يرجى إدخال رقم الطابق ";
+"Please enter flat no" = "يرجى إدخال رقم الشقة";
+
+//Boxes
+"Please enter box name" = "يرجى إدخال اسم الصندوق";
+"There is no items in box. Add Items" = "لا يوجد منتجات داخل الصندوق\n قم بإضافة منتجات";
+"Items not available" = "لا يوجد منتجات متاحة";
+"May be 1 or 2 Items are not Available right now, Rest of your items has been added Your cart." = "ربما منتج أو أكثر غير متوفر الآن. \n تم إعادة تعيين سلة المشتريات الخاص بك";
+"KWD" = "د.ك";
+"Delete Box" = "حذف الصندوق";
+"Are you sure want to remove Box" = "هل أنت متاكد من حذف هذا الصندوق";
+
+"Please enter your message" = "يرجى إدخال الرسالة";
+"Please enter your name" = "يرجى إدخال الاسم";
+"Please enter a valid email" = "يرجى إدخال بريد إلكترونى صحيح";
+"Please enter a valid phone number (8 digits only)" = "يرجى إدخال رقم هاتف مكون من 8 أرقام فقط";
+"Thanks" = "شكراً";
+"Thanks for your message, We will contact you soon." = "شكراً على رسالتك,\n سنتواصل معك قريباً";
+"Your cart is empty" = "سلة المشتريات فارغه";
+"you have reach to maximum quantity of this product" = "لقد وصلت لأقصى كمية من هذا المنتج";
+"googleApiKey" = "811030819013-usfu18cqeunk0k1j5t53akc99cafk82f.apps.googleusercontent.com";
+//checkout
+"Please enter coupon code" = "يرجى إدخال كود الخصم";
+"Please select your address" = "يرجى إختيار عنوان";
+"Please enter your address" =  "يرجى إدخال عنوان";
+"Please select payment method" = "يرجى إختيار طريقة الدفع";
+"Promo code Applied!" = "تم تطبيق الخصم!";
+"Invalid Code!" = "كود الخصم غير صحيح";
+"Please enter customer name" = "يرجى إدخال اسم العميل";
+"Please add an address" = "يرجى إضافة عنوان";
+"Try Again" = "حاول مرة أخرى";
+"Message" = "الرسالة";
+"Other Instructions" = "معلومات أخرى(اختياري)";
+"Unavailable !" = "غير متوفر";
+"This item is unavailable now" = "هذا المنتج غير متوفر حالياً";
+"CoponIsAlreadyUsed" = "هذا الكود مستخدم بالفعل";
+"noOrders" = "لا توجد طلبات متاحة الاَن";
+"Out of stock" = "غير متوفر";
+"not available, you need to update cart" = "غير متوفر ، تحتاج الى تحديث سلة المشتريات الخاصة بك للإستمرار";
+"Update" = "تحديث";
+"No offers found" = "لا توجد عروض";
+"My Wallet" = "محفظتى";
+"Please enter the charge value" = "يرجى إدخال قيمه الشحن";
+"Request Sent" = "تم إرسال الطلب";
+"Wallet" = "المحفظة";
+"Normal" = "عادى";
+"Express" = "سريع";
+"to" = "إلى";
+"Please select delivery type" = "يرجى إختيار طريقة التوصيل";
+"Please select order time" = "يرجى إختيار تاريخ الطلب";
+"Please select order date" = "يرجى إختيار وقت الطلب ";

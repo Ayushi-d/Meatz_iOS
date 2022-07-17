@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DaysCollectionViewCell" id="gTV-IL-0wX" customClass="DaysCollectionViewCell" customModule="Meatz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="96" height="99"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="96" height="99"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHo-Em-zJ5">
+                        <rect key="frame" x="0.0" y="0.0" width="96" height="99"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8m4-bK-QII">
+                                <rect key="frame" x="85" y="5" width="6" height="6"/>
+                                <color key="backgroundColor" name="Meatz-Success"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="6" id="KIW-Of-3bg"/>
+                                    <constraint firstAttribute="height" constant="6" id="uoc-UG-gfR"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QhD-3R-W3Z">
+                                <rect key="frame" x="27.5" y="26.5" width="41.5" height="46"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylJ-TH-4Ey" customClass="BaseLabel" customModule="Meatz" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="Meatz-Black"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34j-9Y-2Zk" customClass="BaseLabel" customModule="Meatz" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="25.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="Meatz-Black"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QhD-3R-W3Z" firstAttribute="centerX" secondItem="JHo-Em-zJ5" secondAttribute="centerX" id="0ps-Wh-2uv"/>
+                            <constraint firstItem="QhD-3R-W3Z" firstAttribute="centerY" secondItem="JHo-Em-zJ5" secondAttribute="centerY" id="ZvG-1f-Amh"/>
+                            <constraint firstItem="8m4-bK-QII" firstAttribute="top" secondItem="JHo-Em-zJ5" secondAttribute="top" constant="5" id="bok-e0-Sg5"/>
+                            <constraint firstAttribute="trailing" secondItem="8m4-bK-QII" secondAttribute="trailing" constant="5" id="oWr-1e-a3S"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="CCorner">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="BorderC">
+                                <color key="value" name="AppGrayColor"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="BorderW">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="JHo-Em-zJ5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ool-4E-kNR"/>
+                <constraint firstItem="JHo-Em-zJ5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="f6c-h4-hUt"/>
+                <constraint firstAttribute="trailing" secondItem="JHo-Em-zJ5" secondAttribute="trailing" id="lMz-W8-hJ4"/>
+                <constraint firstAttribute="bottom" secondItem="JHo-Em-zJ5" secondAttribute="bottom" id="wxo-fi-AW1"/>
+            </constraints>
+            <size key="customSize" width="96" height="99"/>
+            <connections>
+                <outlet property="containerView" destination="JHo-Em-zJ5" id="byx-yW-ZKt"/>
+                <outlet property="currentDayView" destination="8m4-bK-QII" id="r6f-qh-7xY"/>
+                <outlet property="dateLabel" destination="34j-9Y-2Zk" id="nGI-0d-pz6"/>
+                <outlet property="dayLabel" destination="ylJ-TH-4Ey" id="T3e-uf-ahd"/>
+            </connections>
+            <point key="canvasLocation" x="139.13043478260872" y="98.102678571428569"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="34j-9Y-2Zk">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+        <designable name="ylJ-TH-4Ey">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="AppGrayColor">
+            <color red="0.73725490196078436" green="0.73725490196078436" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Meatz-Black">
+            <color red="0.16500000655651093" green="0.16899999976158142" blue="0.16500000655651093" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Meatz-Success">
+            <color red="0.0" green="0.58399999141693115" blue="0.067000001668930054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

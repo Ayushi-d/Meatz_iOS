@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Error"; ObjectID = "56w-Lb-O3D"; */
+"56w-Lb-O3D.text" = "خطأ";
+
+/* Class = "UILabel"; text = "KWD"; ObjectID = "5XY-MZ-pFk"; */
+"5XY-MZ-pFk.text" = "";
+
+/* Class = "UIButton"; normalTitle = "My Wallet"; ObjectID = "9um-qH-2hE"; */
+"9um-qH-2hE.normalTitle" = "محفظتى";
+
+/* Class = "UIButton"; normalTitle = "Recharge"; ObjectID = "HT2-Mj-696"; */
+"HT2-Mj-696.normalTitle" = "شحن";
+
+/* Class = "UILabel"; text = "Balance"; ObjectID = "Iea-Qz-cN8"; */
+"Iea-Qz-cN8.text" = "الرصيد";
+
+/* Class = "UILabel"; text = ".000"; ObjectID = "N7r-vA-WPX"; */
+"N7r-vA-WPX.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Try again"; ObjectID = "PM0-St-ZZ1"; */
+"PM0-St-ZZ1.normalTitle" = "حاول مرة أخرى";
+
+/* Class = "UILabel"; text = "KWD"; ObjectID = "TA1-pa-DaZ"; */
+"TA1-pa-DaZ.text" = "د.ك";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "Xi6-em-n7N"; */
+"Xi6-em-n7N.text" = "";
+
+/* Class = "UILabel"; text = "0.0 Kwd"; ObjectID = "YPf-Jb-C1k"; */
+"YPf-Jb-C1k.text" = "0.000 د.ك";
+
+/* Class = "UILabel"; text = "Transaction Id"; ObjectID = "ZWc-at-3yo"; */
+"ZWc-at-3yo.text" = "رقم المعاملة";
+
+/* Class = "UILabel"; text = "Recharged Successfully"; ObjectID = "lOX-IV-P97"; */
+"lOX-IV-P97.text" = "تم الشحن بنجاح";
+
+/* Class = "UITextField"; placeholder = "0.0"; ObjectID = "mW2-3r-eU8"; */
+"mW2-3r-eU8.placeholder" = "0.000";
+
+/* Class = "UILabel"; text = "Please try again"; ObjectID = "nTM-rs-Plo"; */
+"nTM-rs-Plo.text" = "يرجى المحاولة مرة أخري";
+
+/* Class = "UILabel"; text = "Recharge Your Wallet"; ObjectID = "pF3-6Q-six"; */
+"pF3-6Q-six.text" = "إشحن محفظتك";
+
+/* Class = "UILabel"; text = "Recharge Amount"; ObjectID = "rAm-U9-Ufn"; */
+"rAm-U9-Ufn.text" = "مبلغ الشحن";
+
+/* Class = "UILabel"; text = "Payment Id"; ObjectID = "rG6-DH-v6b"; */
+"rG6-DH-v6b.text" = "رقم الدفع";
+
+/* Class = "UIButton"; normalTitle = "Recharge"; ObjectID = "x4b-Ap-8R5"; */
+"x4b-Ap-8R5.normalTitle" = "شحن";
