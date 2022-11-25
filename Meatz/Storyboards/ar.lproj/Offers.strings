@@ -1,0 +1,48 @@
+
+/* Class = "UITextField"; placeholder = "Type Here"; ObjectID = "4Kn-IK-cjg"; */
+"4Kn-IK-cjg.placeholder" = "أكتب هنا";
+
+/* Class = "UILabel"; text = "persons ."; ObjectID = "EuA-wJ-Duu"; */
+"EuA-wJ-Duu.text" = "اشخاص .";
+
+/* Class = "UILabel"; text = "Result Found"; ObjectID = "FBi-gb-zf0"; */
+"FBi-gb-zf0.text" = "نتيجة";
+
+/* Class = "UILabel"; text = "KDW 150"; ObjectID = "Itv-3u-VaI"; */
+"Itv-3u-VaI.text" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "M3h-Mx-jhS"; */
+"M3h-Mx-jhS.text" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Q1v-zT-Oa6"; */
+"Q1v-zT-Oa6.text" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ub5-jT-UHR"; */
+"Ub5-jT-UHR.text" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZB5-il-zAJ"; */
+"ZB5-il-zAJ.text" = "";
+
+/* Class = "UILabel"; text = "KWD 150"; ObjectID = "f4z-9S-Zpz"; */
+"f4z-9S-Zpz.text" = "";
+
+/* Class = "UILabel"; text = "persons"; ObjectID = "fqj-oZ-XoN"; */
+"fqj-oZ-XoN.text" = "اشخاص";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "iGj-g7-3f2"; */
+"iGj-g7-3f2.text" = "1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "m1e-Kh-Cdx"; */
+"m1e-Kh-Cdx.text" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "thn-ZK-w4n"; */
+"thn-ZK-w4n.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Add to cart"; ObjectID = "tvl-YD-bBS"; */
+"tvl-YD-bBS.normalTitle" = "أضف الى السلة";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "uOS-3f-Kzy"; */
+"uOS-3f-Kzy.text" = "1";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "wjm-TE-953"; */
+"wjm-TE-953.text" = "1";

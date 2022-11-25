@@ -1,0 +1,46 @@
+
+/* Class = "UILabel"; text = "Notification"; ObjectID = "2dT-1r-6Uo"; */
+"LEW-vp-9nK.text" = "الرسالة";
+
+"2dT-1r-6Uo.text" = "الإشعارات";
+
+/* Class = "UILabel"; text = "Change Language"; ObjectID = "8fs-1p-Hzs"; */
+"8fs-1p-Hzs.text" = "تغيير اللغة";
+
+/* Class = "UILabel"; text = "Contact Us on Whatsapp"; ObjectID = "9Ph-hr-itW"; */
+"9Ph-hr-itW.text" = "تواصل معنا على الواتساب";
+
+/* Class = "UILabel"; text = "Send us a message"; ObjectID = "Hg5-Mf-P5N"; */
+"Hg5-Mf-P5N.text" = "ارسل رسالة";
+
+/* Class = "UILabel"; text = "Contact Us"; ObjectID = "LVx-gN-rKZ"; */
+"LVx-gN-rKZ.text" = "اتصل بنا";
+
+/* Class = "UITextField"; placeholder = "Email Address*"; ObjectID = "MCp-8m-rPz"; */
+"MCp-8m-rPz.placeholder" = "البريد الإلكترونى*";
+
+/* Class = "UILabel"; text = "Change Language"; ObjectID = "Wvy-ZG-V4T"; */
+"Wvy-ZG-V4T.text" = "تغيير اللغة";
+
+/* Class = "UILabel"; text = "العربية"; ObjectID = "dcF-8t-amP"; */
+"dcF-8t-amP.text" = "العربية";
+
+/* Class = "UILabel"; text = "Notification"; ObjectID = "gKd-Ur-Pp3"; */
+"gKd-Ur-Pp3.text" = "الإشعارات";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "igP-OY-Pdn"; */
+"igP-OY-Pdn.normalTitle" = "إرسال";
+
+/* Class = "UITextField"; placeholder = "Phone Number*"; ObjectID = "l7j-mJ-6Rn"; */
+"l7j-mJ-6Rn.placeholder" = "رقم الهاتف*";
+
+/* Class = "UILabel"; text = "Contact Us"; ObjectID = "pYR-xr-IsW"; */
+"pYR-xr-IsW.text" = "اتصل بنا";
+
+/* Class = "UITextField"; placeholder = "Name*"; ObjectID = "qpm-Rr-F0p"; */
+"qpm-Rr-F0p.placeholder" = "الاسم*";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "sjs-aV-4UL"; */
+"sjs-aV-4UL.text" = "ENGLISH";
+"dUt-dg-wfs.text" = "";
+"4J4-kP-Ilt.text" = "";

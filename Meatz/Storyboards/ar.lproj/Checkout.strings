@@ -1,0 +1,94 @@
+
+/* Class = "UILabel"; text = "Order Successfully"; ObjectID = "0tJ-x0-fjC"; */
+"0tJ-x0-fjC.text" = "تم الطلب بنجاح";
+
+/* Class = "UILabel"; text = "Delivery Charge"; ObjectID = "6Qg-kS-INM"; */
+"6Qg-kS-INM.text" = "رسوم التوصيل";
+
+/* Class = "UIButton"; normalTitle = "Proceed to Payment"; ObjectID = "8zH-3O-SHQ"; */
+"8zH-3O-SHQ.normalTitle" = "الاستمرار للدفع";
+
+/* Class = "UILabel"; text = "Checkout"; ObjectID = "BkY-Ys-ata"; */
+"BkY-Ys-ata.text" = "الدفع";
+
+/* Class = "UILabel"; text = "Payment Id"; ObjectID = "GHk-a1-eMB"; */
+"GHk-a1-eMB.text" = "رقم الدفع";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "H4M-nm-zub"; */
+"H4M-nm-zub.text" = " المجموع الكلى";
+
+/* Class = "UILabel"; text = "Promo code Applied!"; ObjectID = "H4j-Ud-aLR"; */
+"H4j-Ud-aLR.text" = "تم تطبيق الخصم";
+
+/* Class = "UILabel"; text = "Delivery Address"; ObjectID = "Lmw-CA-lWX"; */
+"Lmw-CA-lWX.text" = "عنوان التوصيل";
+
+/* Class = "UILabel"; text = "Transaction Id"; ObjectID = "Mb1-4l-N0V"; */
+"Mb1-4l-N0V.text" = "رقم المعاملة";
+
+/* Class = "UILabel"; text = "Select Address"; ObjectID = "OqY-ks-Za7"; */
+"OqY-ks-Za7.text" = "اختر عنوان";
+
+/* Class = "UILabel"; text = "Error"; ObjectID = "Out-LQ-5kv"; */
+"Out-LQ-5kv.text" = "خطأ";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "QGA-uo-A2l"; */
+"QGA-uo-A2l.normalTitle" = "تطبيق";
+
+/* Class = "UILabel"; text = "Products Total"; ObjectID = "QqD-H8-qdY"; */
+"QqD-H8-qdY.text" = "إجمالى المنتجات";
+
+/* Class = "UILabel"; text = "Coupon Code"; ObjectID = "Ufu-N0-wKQ"; */
+"Ufu-N0-wKQ.text" = "كود الخصم";
+
+/* Class = "UIButton"; normalTitle = "Home"; ObjectID = "VSL-63-19l"; */
+"VSL-63-19l.normalTitle" = "الرئيسية";
+
+/* Class = "UILabel"; text = "Please try again"; ObjectID = "YnN-1r-TP6"; */
+"YnN-1r-TP6.text" = "يرجى المحاولة مرة أخري";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dek-j4-I6v"; */
+"dek-j4-I6v.text" = "Label";
+
+/* Class = "UILabel"; text = "Add New Address"; ObjectID = "hwZ-A3-fpN"; */
+"hwZ-A3-fpN.text" = "أضف عنوان جديد";
+
+
+/* Class = "UILabel"; text = "Payment Method"; ObjectID = "le3-ry-tej"; */
+"le3-ry-tej.text" = "طريقة الدفع";
+
+/* Class = "UILabel"; text = "Order Id"; ObjectID = "mFW-DN-6La"; */
+"mFW-DN-6La.text" = "رقم الطلب";
+
+/* Class = "UIButton"; normalTitle = "Try again"; ObjectID = "ohs-kp-9w2"; */
+"ohs-kp-9w2.normalTitle" = "حاول مرة أخرى";
+
+/* Class = "UILabel"; text = "Discount"; ObjectID = "tYd-EY-o6S"; */
+"tYd-EY-o6S.text" = "الخصم";
+
+/* Class = "UILabel"; text = "Meat"; ObjectID = "uxK-Oz-hs9"; */
+"uxK-Oz-hs9.text" = "لحوم";
+"jYz-qM-XFU.placeholder" = "أدخل هنا";
+"KZK-Qh-A34.text" = "0.000 د.ك";
+"nW6-Ye-Wj6.text" = "0.000 د.ك";
+"b78-bA-2SH.text"  = "سيتم تسليم الصناديق في خلال يوم الي يومين";
+
+"DOx-Qv-Sq6.text" = "الدفع";
+"fuI-DC-km5.text" = "عنوان التوصيل";
+"JaT-PL-j2C.text" = "أضف عنوان جديد";
+"Eh5-n4-RhX.placeholder" = "اختر عنوان";
+"prK-0q-CPE.text" = "لا يوجد عنوان";
+"JyA-Af-Bgu.text"= "يرجى إضافة عنوان !";
+"g88-Ie-1UO.text" = "طريقة الدفع";
+"xaT-0C-gXy.text" = "طريقة التوصيل";
+"dQ8-vj-5WX.text" = "إختر التاريخ";
+"vok-5C-wCr.text" = "إختر الوقت";
+"IT8-BC-Dqc.text" = "توصيل سريع";
+"Nir-dp-ILq.text" = "كود الخصم";
+"J7z-w8-ra6.normalTitle" = "تطبيق";
+"Wy5-4W-3n9.normalTitle" = "تأكيد الطلب";
+"qoU-Vh-AM8.placeholder" = "أدخل هنا";
+"h0n-uR-tvb.text" = "إجمالى المنتجات";
+"lud-Pb-6aS.text" = "رسوم التوصيل";
+"qhs-So-0oP.text" = "الخصم";
+"dcl-v9-Qug.text" =  "المجموع الكلى";

@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "7qO-Ty-Ihj"; */
+"7qO-Ty-Ihj.normalTitle" = "Arabic";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "AKe-Vl-PSa"; */
+"AKe-Vl-PSa.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "SELECT YOUR LANGUAGE"; ObjectID = "J9U-Wp-iFN"; */
+"J9U-Wp-iFN.text" = "اختر اللغة";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "gZw-Mf-ary"; */
+"gZw-Mf-ary.normalTitle" = "تخطى";

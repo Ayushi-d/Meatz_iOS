@@ -1,0 +1,147 @@
+/* 
+  Localizable.strings
+  Meatz
+
+  Created by Mohamed Zead on 3/22/21.
+  
+*/
+"theItems" = "Items";
+"TheShops" = "Offers";
+"shop" = "Shop";
+"home" = "Home";
+"Shops" = "Shops";
+"My Boxes" = "My Boxes";
+"Profile" = "Profile";
+"Settings" = "Settings";
+"kwd" = "KWD";
+"Meat" = "Meat";
+"Poultry" = "Poultry";
+"Fish" = "Fish";
+"Error" = "Error";
+"Ok" = "Ok";
+"Items" = "Items";
+"Price (High to Low)" = "Price (High to Low)";
+"Price (Low to High)" = "Price (Low to High)";
+"Newest" = "Newest";
+"Persons" = "Persons";
+"shop available" = "shop available";
+"Available" = "Available";
+"See More" = "See More";
+"Confirmation" = "Confirmation";
+"Password sent" = "Password sent";
+"Edit Profile" = "Edit Profile";
+"My Orders" = "My Orders";
+"Wishlist" = "Wishlist";
+"My Address" = "My Address";
+"Change Password" = "Change Password";
+"Logout" = "Logout";
+"Yes" = "Yes";
+"Profile Updated" = "Profile Updated";
+"Password Changed" = "Password Changed";
+"Remove item" = "Remove item";
+"Saved Addresses" = "Saved Addresses";
+"BLOCK" = "BLOCK";
+"STREET" = "STREET";
+"BUILDING" = "BUILDING";
+"FLOOR" = "FLOOR";
+"Delete address" = "Delete address";
+"itemsCountLabel" = "Items : ";
+"quantityLabel" = "Quantity : ";
+"N/A" = "N/A";
+"Add to My Box" = "Add to My Box";
+"Add Box" = "Add Box";
+"Clear" = "Clear";
+"Cart" = "Cart";
+"Cash on Delivery" = "Cash on Delivery";
+"Online" = "Online";
+"Login" = "Login";
+// Messages
+"Something wen wrong!" = "Something wen wrong!";
+"There are no products" = "There are no products";
+"There are no shops" = "There are no shops";
+"There are no notifications" = "There are no notifications";
+"No Result Found!" = "No Result Found!";
+"Are you sure you want to logout" = "Are you sure you want to logout";
+"max prdct count" = "you have reach to maximum quantity of this product";
+"profileGuestMessage" = "You have to login first to perform this action !";
+"whishlist remove item message" = "Are you sure want to remove Item from Wishlist";
+"boxesEmptyMessage" = "There Is no Saved boxes yet,\n Please add a box & add items";
+"Please login first" = "Please login first";
+"Please add a Box for adding the product in box." = "Please add a Box for\n adding the product in box.";
+//login
+"wrong email address/password" = "wrong email address/password";
+"Please enter your email" = "Please enter your email";
+"Please enter your password" = "Please enter your password";
+"Please enter a valid email" = "Please enter a valid email";
+//register
+"Please enter your first name" = "Please enter your first name";
+"Please enter your last name" = "Please enter your last name";
+"Please enter your phone" = "Please enter your phone";
+"phoneLengthValidation" = "Please enter a valid phone number (8 digits only)";
+"passLengthValidation" = "Password  must be at least  8 characters";
+"Please enter confirmed password" = "Please enter confirmed password";
+"passMatching" = "Confirmed password not match password";
+"termsAcceptValidation" = "Please accept privacy policy and T&C";
+//change password
+"Please enter old password" = "Please enter old password (must be at least 8 characters)";
+"Please enter new password" = "Please enter new password (must be at least 8 characters)";
+"Please enter new confirmed password" = "Please enter new confirmed password";
+//Address
+"addressRemovalMessage" = "Are you sure you want to remove address from address book.";
+"Please enter address name" = "Please enter address name";
+"Please select area" = "Please select area";
+"Please enter block" = "Please enter block";
+"Please enter street  no" = "Please enter street  no";
+"Please enter house no" = "Please enter house no";
+"Please enter floor no" = "Please enter floor no";
+"Please enter flat no" = "Please enter flat no";
+
+//Boxes
+"Please enter box name" = "Please enter box name";
+"There is no items in box. Add Items" = "There is no items in box.\n Add Items";
+"Items not available" = "Items not available";
+"May be 1 or 2 Items are not Available right now, Rest of your items has been added Your cart." = "May be 1 or 2 Items are not Available right now, Rest of your items has been added Your cart.";
+"KWD" = "KWD";
+"Delete Box" = "Delete Box";
+"Are you sure want to remove Box" = "Are you sure want to remove Box";
+
+"Please enter your message" = "Please enter your message";
+"Please enter your name" = "Please enter your name";
+"Please enter a valid email" = "Please enter a valid email";
+"Please enter a valid phone number (8 digits only)" = "Please enter a valid phone number (8 digits only)";
+"Thanks" = "Thanks";
+"Thanks for your message, We will contact you soon." = "Thanks for your message,\n We will contact you soon.";
+"Your cart is empty" = "Your cart is empty";
+"you have reach to maximum quantity of this product" = "you have reach to maximum quantity of this product";
+"googleApiKey" = "811030819013-usfu18cqeunk0k1j5t53akc99cafk82f.apps.googleusercontent.com";
+//checkout
+"Please enter coupon code" = "Please enter coupon code";
+"Please select your address" = "Please select your address";
+"Please enter your address" =  "Please enter your address";
+"Please select payment method" = "Please select payment method";
+"Promo code Applied!" = "Promo code Applied!";
+"Invalid Code!" = "Invalid Code!";
+"Please enter customer name" = "Please enter customer name";
+"Please add an address" = "Please add an address";
+"Try Again" = "Try Again";
+"Message" = "Message*";
+"Other Instructions" = "Other Instructions";
+"Unavailable !" =  "Unavailable !";
+"This item is unavailable now" = "This item is unavailable now";
+"CoponIsAlreadyUsed" = "The coupon has been already used";
+"My Orders" = "My Orders";
+"noOrders" = "There are no orders";
+"Out of stock" = "Out of stock";
+"not available, you need to update cart" = "not available, you need to update your cart to continue";
+"Update" = "Update";
+"No offers found" = "No offers found";
+"My Wallet" = "My Wallet";
+"Please enter the charge value" = "Please enter the charge value";
+"Request Sent" = "Request Sent";
+"Wallet" = "Wallet";
+"Normal" = "Normal";
+"Express" = "Express";
+"to" = "to";
+"Please select delivery type" = "Please select delivery type";
+"Please select order time" = "Please select order time";
+"Please select order date" = "Please select order date";

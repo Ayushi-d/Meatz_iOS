@@ -1,0 +1,443 @@
+"5BU-Lh-qhP.text" = "تم تغيير كلمة المرور";
+"aL7-WM-dRu.text" = "تم تعديل كلمة المرور بنجاح";
+"cPt-xN-dqz.normalTitle" = "تسجيل الدخول";
+/* Class = "UILabel"; text = "Delivered"; ObjectID = "10Q-2s-CVy"; */
+"10Q-2s-CVy.text" = "تم التوصيل";
+
+/* Class = "UILabel"; text = "•"; ObjectID = "1x2-7l-t4R"; */
+"1x2-7l-t4R.text" = "•";
+
+/* Class = "UITextField"; placeholder = "Street Number*"; ObjectID = "20Y-aG-pdz"; */
+"20Y-aG-pdz.placeholder" = "رقم الشارع*";
+
+/* Class = "UILabel"; text = "#111"; ObjectID = "2AD-IM-cQd"; */
+"2AD-IM-cQd.text" = "";
+
+/* Class = "UILabel"; text = "Box Name"; ObjectID = "3Uh-qc-8rC"; */
+"3Uh-qc-8rC.text" = "اسم الصندوق";
+
+/* Class = "UILabel"; text = "Edit Address"; ObjectID = "4DT-Kv-Gz7"; */
+"4DT-Kv-Gz7.text" = "تعديل العنوان";
+
+/* Class = "UITextField"; placeholder = "House Number*"; ObjectID = "5Al-tw-Mbd"; */
+"5Al-tw-Mbd.placeholder" = "رقم المبنى*";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "5BE-4M-Vya"; */
+"5BE-4M-Vya.text" = "الإجمالى";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "5td-j9-dEY"; */
+"5td-j9-dEY.text" = "السعر";
+
+/* Class = "UIButton"; normalTitle = "View All"; ObjectID = "6Lj-8j-GPr"; */
+"6Lj-8j-GPr.normalTitle" = "عرض الكل";
+
+/* Class = "UILabel"; text = "Extras (optional)"; ObjectID = "7cY-fg-YpY"; */
+"7cY-fg-YpY.text" = "إضافات (اختياري)";
+
+/* Class = "UILabel"; text = "Payment Method"; ObjectID = "870-VX-Bna"; */
+"870-VX-Bna.text" = "طريقة الدفع";
+"mbY-RD-oP0.text" = "طريقة التوصيل";
+"IZA-lp-T0e.text" = "تاريخ التوصيل";
+"GoI-NV-Zs9.text" = "معاد التوصيل";
+
+
+/* Class = "UITextField"; placeholder = "Floor Number"; ObjectID = "8I1-EZ-Ypv"; */
+"8I1-EZ-Ypv.placeholder" = "رقم الطابق";
+
+/* Class = "UITextField"; placeholder = "Apt. Number"; ObjectID = "8S0-0D-cuv"; */
+"8S0-0D-cuv.placeholder" = "رقم الشقة";
+
+/* Class = "UILabel"; text = "Shop Name"; ObjectID = "93r-iG-IxU"; */
+"93r-iG-IxU.text" = "اسم المتجر";
+
+/* Class = "UILabel"; text = "Filter By"; ObjectID = "AH0-BT-x9K"; */
+"AH0-BT-x9K.text" = "تصفية حسب";
+
+/* Class = "UILabel"; text = "Delivered"; ObjectID = "AQP-Fa-QZ3"; */
+"AQP-Fa-QZ3.text" = "تم التوصيل";
+
+/* Class = "UILabel"; text = "Meat"; ObjectID = "Aac-Lj-3xX"; */
+"Aac-Lj-3xX.text" = "لحوم";
+
+/* Class = "UITextField"; placeholder = "Phone Number*"; ObjectID = "AiK-hn-VGc"; */
+"AiK-hn-VGc.placeholder" = "رقم الهاتف*";
+"28m-eF-m3q.placeholder" = "اسم العنوان*";
+
+/* Class = "UITextField"; placeholder = "House Number*"; ObjectID = "C6g-px-bts"; */
+"C6g-px-bts.placeholder" = "رقم المبنى*";
+
+/* Class = "UITextField"; placeholder = "Email Address(Optional)"; ObjectID = "CAf-7V-e5N"; */
+"CAf-7V-e5N.placeholder" = "البريد الإلكترونى(إختياري)";
+
+/* Class = "UILabel"; text = "Quantity : 2"; ObjectID = "Cze-Rh-BHC"; */
+"Cze-Rh-BHC.text" = "الكمية: ٢";
+
+/* Class = "UITextField"; placeholder = "Customer Name*"; ObjectID = "D3X-lQ-3Rd"; */
+"D3X-lQ-3Rd.placeholder" = "اسم العميل*";
+
+/* Class = "UIButton"; normalTitle = "Shops"; ObjectID = "DFQ-gu-x2y"; */
+"DFQ-gu-x2y.normalTitle" = "المتاجر";
+"Nr9-jK-K3S.normalTitle" = "طلب إلغاء";
+
+/* Class = "UILabel"; text = "Payment Details"; ObjectID = "DmN-Td-Uia"; */
+"DmN-Td-Uia.text" = "تفاصيل الدفع";
+
+/* Class = "UILabel"; text = "There are no boxes added by the admin"; ObjectID = "EeW-xN-zfK"; */
+"EeW-xN-zfK.text" = " لا توجد صناديق متاحة حاليا";
+
+/* Class = "UITextField"; placeholder = "House Number*"; ObjectID = "F5g-XN-IrK"; */
+"F5g-XN-IrK.placeholder" = "رقم المبنى*";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "FRa-Wx-NKZ"; */
+"FRa-Wx-NKZ.placeholder" = "الاسم الأول";
+
+/* Class = "UITextField"; placeholder = "Area*"; ObjectID = "Ffc-xU-pud"; */
+"Ffc-xU-pud.placeholder" = "المنطقة*";
+
+/* Class = "UILabel"; text = "KWD 50.000"; ObjectID = "GWg-5Y-1et"; */
+"GWg-5Y-1et.text" = "";
+
+/* Class = "UILabel"; text = "Quantity : 2"; ObjectID = "GgV-Zh-Qoo"; */
+"GgV-Zh-Qoo.text" = "الكمية: ٢";
+
+/* Class = "UIButton"; normalTitle = "Add to Cart"; ObjectID = "Gj7-Q3-Bg6"; */
+"Gj7-Q3-Bg6.normalTitle" = "أضف الى السلة";
+
+/* Class = "UILabel"; text = "Shop Name"; ObjectID = "HZj-Ob-c3U"; */
+"HZj-Ob-c3U.text" = "";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "Him-9H-UoI"; */
+"Him-9H-UoI.placeholder" = "الاسم الأخير";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "I50-gL-gYz"; */
+"I50-gL-gYz.normalTitle" = "تسجيل الخروج";
+
+/* Class = "UITextField"; placeholder = "Old Password"; ObjectID = "Iti-CZ-rHX"; */
+"Iti-CZ-rHX.placeholder" = "كلمة المرور الحالية";
+
+/* Class = "UILabel"; text = "Reorder"; ObjectID = "Ivp-A7-2XZ"; */
+"Ivp-A7-2XZ.text" = "إعادة الطلب";
+
+/* Class = "UILabel"; text = "KWD 2.300"; ObjectID = "J0T-TB-dr8"; */
+"J0T-TB-dr8.text" = "";
+
+/* Class = "UILabel"; text = "KWD 2.300"; ObjectID = "J4W-Vu-QzS"; */
+"J4W-Vu-QzS.text" = "";
+
+/* Class = "UILabel"; text = "Wishlist"; ObjectID = "JSD-Qb-3zS"; */
+"JSD-Qb-3zS.text" = "المفضلة";
+
+/* Class = "UITextField"; placeholder = "Apt. Number"; ObjectID = "KRq-Oq-F0i"; */
+"KRq-Oq-F0i.placeholder" = "رقم الشقة";
+
+/* Class = "UILabel"; text = "items : 2"; ObjectID = "Kgr-Ct-xW2"; */
+"Kgr-Ct-xW2.text" = "المنتجات: ٢";
+
+/* Class = "UILabel"; text = "•"; ObjectID = "Kw2-Nq-bpy"; */
+"Kw2-Nq-bpy.text" = "•";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "L2A-bh-Eit"; */
+"L2A-bh-Eit.text" = "اسم المنتج";
+
+/* Class = "UITabBarItem"; title = "Shops"; ObjectID = "LwV-iA-PuY"; */
+"LwV-iA-PuY.title" = "المتاجر";
+
+/* Class = "UILabel"; text = "KWD 20.000"; ObjectID = "MLq-Fc-nfN"; */
+"MLq-Fc-nfN.text" = "";
+
+/* Class = "UIButton"; normalTitle = "View Cart"; ObjectID = "MRL-ew-2it"; */
+"MRL-ew-2it.normalTitle" = "عرض السلة";
+
+/* Class = "UILabel"; text = "Our Boxes"; ObjectID = "N9X-hw-kxr"; */
+"N9X-hw-kxr.text" = "صناديقنا";
+
+/* Class = "UILabel"; text = "Delivery Charge"; ObjectID = "NHY-xe-dvr"; */
+"NHY-xe-dvr.text" = "رسوم التوصيل";
+
+/* Class = "UILabel"; text = "Transaction ID"; ObjectID = "NTf-2c-xMm"; */
+"NTf-2c-xMm.text" = "رقم الدفع";
+
+/* Class = "UITextField"; placeholder = "Block*"; ObjectID = "NVI-um-R4r"; */
+"NVI-um-R4r.placeholder" = "القطعة*";
+
+/* Class = "UILabel"; text = "My Address"; ObjectID = "Nds-h0-Xo0"; */
+"Nds-h0-Xo0.text" = "عناوينى";
+
+/* Class = "UILabel"; text = "Change Password"; ObjectID = "ON9-hH-tAz"; */
+"ON9-hH-tAz.text" = "تغيير كلمة المرور";
+
+/* Class = "UILabel"; text = "1H"; ObjectID = "OOo-Hp-bKM"; */
+"OOo-Hp-bKM.text" = "";
+
+/* Class = "UIButton"; normalTitle = "View All"; ObjectID = "OZG-Yk-th1"; */
+"OZG-Yk-th1.normalTitle" = "عرض الكل";
+
+/* Class = "UITextField"; placeholder = "Block*"; ObjectID = "P3O-4N-rzT"; */
+"P3O-4N-rzT.placeholder" = "القطعة*";
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "Pkz-52-thy"; */
+"Pkz-52-thy.text" = "تعديل حسابى";
+
+/* Class = "UITextField"; placeholder = "Confirm New Password"; ObjectID = "QNR-4v-pU3"; */
+"QNR-4v-pU3.placeholder" = "تأكيد كلمة المرور";
+
+/* Class = "UILabel"; text = "Shop Name"; ObjectID = "RUE-y8-9YS"; */
+"RUE-y8-9YS.text" = "اسم المتجر";
+
+/* Class = "UILabel"; text = "Option 1, Option 2"; ObjectID = "RV2-MQ-jnr"; */
+"RV2-MQ-jnr.text" = "Option 1, Option 2";
+
+/* Class = "UILabel"; text = "There are no address in address book \nPlease add address"; ObjectID = "Raa-3Q-uB1"; */
+"Raa-3Q-uB1.text" = "لا يوجد عناوين يرجى إضافة عنوان جديد";
+
+/* Class = "UITextField"; placeholder = "Area*"; ObjectID = "S18-m2-Q09"; */
+"S18-m2-Q09.placeholder" = "المنطقة*";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SdW-k8-ycu"; */
+"SdW-k8-ycu.text" = "";
+
+/* Class = "UILabel"; text = "KWD 2.300"; ObjectID = "TaK-bd-5b7"; */
+"TaK-bd-5b7.text" = "";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "Tlo-zo-Md3"; */
+"Tlo-zo-Md3.text" = "اسم المنتج";
+
+/* Class = "UIButton"; normalTitle = "Change Password"; ObjectID = "UH3-vc-whW"; */
+"UH3-vc-whW.normalTitle" = "تغيير كلمة المرور";
+
+/* Class = "UILabel"; text = "3.800"; ObjectID = "Uet-gH-g3c"; */
+"Uet-gH-g3c.text" = "";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "Ufc-ko-ogW"; */
+"Ufc-ko-ogW.placeholder" = "كلمة المرور الجديدة";
+
+/* Class = "UITextField"; placeholder = "Type here"; ObjectID = "Uya-gP-cBR"; */
+"Uya-gP-cBR.placeholder" = "أكتب هنا";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "VBf-gn-33S"; */
+"VBf-gn-33S.normalTitle" = "إضافة";
+
+/* Class = "UILabel"; text = "Shop Name"; ObjectID = "W8B-rB-1rM"; */
+"W8B-rB-1rM.text" = "اسم المتجر";
+
+/* Class = "UILabel"; text = "Meat lover box"; ObjectID = "XJf-HB-FvB"; */
+"XJf-HB-FvB.text" = "Meat lover box";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xx7-pu-HKA"; */
+"Xx7-pu-HKA.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "Y9X-O6-XeD"; */
+"Y9X-O6-XeD.normalTitle" = "تعديل";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "YPN-DN-euL"; */
+"YPN-DN-euL.title" = "الرئيسية";
+
+/* Class = "UILabel"; text = "username@gmail.com"; ObjectID = "YQW-zG-5RX"; */
+"YQW-zG-5RX.text" = "username@gmail.com";
+
+/* Class = "UILabel"; text = "Order Date"; ObjectID = "YpZ-nK-Pm5"; */
+"YpZ-nK-Pm5.text" = "تاريخ الطلب";
+
+/* Class = "UILabel"; text = "Our Selection"; ObjectID = "Ys5-7U-mdH"; */
+"Ys5-7U-mdH.text" = "إختياراتنا";
+
+/* Class = "UILabel"; text = "Your Order Summary"; ObjectID = "ZAj-8w-FlZ"; */
+"ZAj-8w-FlZ.text" = "ملخص الطلب";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "ZHc-sw-M9j"; */
+"ZHc-sw-M9j.normalTitle" = "استمرار";
+
+/* Class = "UITextField"; placeholder = "Street Number*"; ObjectID = "ZUU-ZQ-YeW"; */
+"ZUU-ZQ-YeW.placeholder" = "رقم الشارع*";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "aAu-Nw-dbh"; */
+"aAu-Nw-dbh.normalTitle" = "تعديل";
+
+/* Class = "UILabel"; text = "Meat"; ObjectID = "aWu-Db-G4M"; */
+"aWu-Db-G4M.text" = "لحوم";
+
+/* Class = "UILabel"; text = "Order ID"; ObjectID = "bFJ-uY-Q0J"; */
+"bFJ-uY-Q0J.text" = "رقم الطلب";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "bn5-3Y-Tj0"; */
+"bn5-3Y-Tj0.text" = "";
+
+/* Class = "UILabel"; text = "categoryName"; ObjectID = "boL-h8-ARP"; */
+"boL-h8-ARP.text" = "categoryName";
+
+/* Class = "UIButton"; normalTitle = "Add to My Box"; ObjectID = "c2P-D1-FZ8"; */
+"c2P-D1-FZ8.normalTitle" = "أضف الى صندوقى";
+
+/* Class = "UILabel"; text = "Products Total"; ObjectID = "c3U-I5-21n"; */
+"c3U-I5-21n.text" = "إجمالي المنتجات";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "cyC-3E-J1A"; */
+"cyC-3E-J1A.text" = "اسم المنتج";
+
+/* Class = "UILabel"; text = "KWD 2.300"; ObjectID = "dVk-xb-VZg"; */
+"dVk-xb-VZg.text" = "";
+
+/* Class = "UITextField"; placeholder = "Street Number*"; ObjectID = "dcP-ZJ-pSH"; */
+"dcP-ZJ-pSH.placeholder" = "رقم الشارع*";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "deF-ug-4Kf"; */
+"deF-ug-4Kf.text" = "الإشعارات";
+
+/* Class = "UILabel"; text = "My Orders"; ObjectID = "dfu-3e-RF7"; */
+"dfu-3e-RF7.text" = "طلباتى";
+
+/* Class = "UILabel"; text = "KWD 2.300"; ObjectID = "dm9-ga-VVX"; */
+"dm9-ga-VVX.text" = "";
+
+/* Class = "UILabel"; text = "Add to My Box"; ObjectID = "dsz-Cu-Vih"; */
+"dsz-Cu-Vih.text" = "أضف الى صندوقى";
+
+/* Class = "UILabel"; text = "Add Address"; ObjectID = "esx-wv-THh"; */
+"esx-wv-THh.text" = "إضافة عنوان";
+
+/* Class = "UIButton"; normalTitle = "Add Address"; ObjectID = "f7e-33-OYA"; */
+"f7e-33-OYA.normalTitle" = "إضافة عنوان";
+
+/* Class = "UILabel"; text = "Payment ID"; ObjectID = "g6Q-GO-WcO"; */
+"g6Q-GO-WcO.text" = "رقم المعاملة";
+
+/* Class = "UITabBarItem"; title = "My Boxes"; ObjectID = "gZu-HF-6EC"; */
+"gZu-HF-6EC.title" = "صندوقى";
+
+/* Class = "UITextField"; placeholder = "Address Name*"; ObjectID = "h95-8V-ICL"; */
+"h95-8V-ICL.placeholder" = "اسم العنوان*";
+
+/* Class = "UILabel"; text = "Our Boxes"; ObjectID = "hUR-RL-ee8"; */
+"hUR-RL-ee8.text" = "صناديقنا";
+
+/* Class = "UITextField"; placeholder = "Block*"; ObjectID = "hYt-3m-s4A"; */
+"hYt-3m-s4A.placeholder" = "القطعة*";
+
+/* Class = "UILabel"; text = "My Address"; ObjectID = "hbx-Um-POt"; */
+"hbx-Um-POt.text" = "";
+
+/* Class = "UILabel"; text = "Our Selection"; ObjectID = "iIN-QJ-ivP"; */
+"iIN-QJ-ivP.text" = "إختياراتنا";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "iN5-vN-ZVe"; */
+"iN5-vN-ZVe.title" = "الإعدادات";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "iWr-hR-s7R"; */
+"iWr-hR-s7R.text" = "اسم المنتج";
+
+/* Class = "UILabel"; text = "3.800"; ObjectID = "ine-r5-qmK"; */
+"ine-r5-qmK.text" = "";
+
+/* Class = "UILabel"; text = "Order Detail"; ObjectID = "ipn-OK-Mrx"; */
+"ipn-OK-Mrx.text" = "تفاصيل الطلب";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "j0P-vo-a3e"; */
+"j0P-vo-a3e.placeholder" = "رقم الهاتف";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "kIQ-BY-g2K"; */
+"kIQ-BY-g2K.text" = "اسم المنتج";
+
+/* Class = "UIButton"; normalTitle = "Add New Address"; ObjectID = "keP-9w-2Da"; */
+"keP-9w-2Da.normalTitle" = "إضافة عنوان جديد";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "kfY-XQ-Klh"; */
+"kfY-XQ-Klh.title" = "حسابى";
+
+/* Class = "UIButton"; normalTitle = "Items"; ObjectID = "l45-2z-NKY"; */
+"l45-2z-NKY.normalTitle" = "المنتجات";
+
+/* Class = "UILabel"; text = "No Address Found!"; ObjectID = "lcb-0p-wDM"; */
+"lcb-0p-wDM.text" = "لا يوجد عناوين متاحة";
+
+/* Class = "UITextField"; placeholder = "Area*"; ObjectID = "lk2-D8-dMu"; */
+"lk2-D8-dMu.placeholder" = "المنطقة*";
+
+/* Class = "UILabel"; text = "5 persons"; ObjectID = "mn2-VL-k0e"; */
+"mn2-VL-k0e.text" = "5 persons";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "nGT-Ak-pqV"; */
+"nGT-Ak-pqV.text" = "";
+
+/* Class = "UILabel"; text = "Delivery Address"; ObjectID = "oI7-H0-zGk"; */
+"oI7-H0-zGk.text" = "عنوان التوصيل";
+
+/* Class = "UILabel"; text = "Type here"; ObjectID = "obx-jE-Rvl"; */
+"obx-jE-Rvl.text" = "أكتب هنا";
+
+/* Class = "UILabel"; text = "Meat"; ObjectID = "omy-xd-WJU"; */
+"omy-xd-WJU.text" = "لحوم";
+
+/* Class = "UILabel"; text = "24/11/2020"; ObjectID = "pMt-Od-yCJ"; */
+"pMt-Od-yCJ.text" = "";
+
+/* Class = "UIButton"; normalTitle = "View Cart"; ObjectID = "pNw-w8-y5X"; */
+"pNw-w8-y5X.normalTitle" = "عرض السلة";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "pPi-jK-6GL"; */
+"pPi-jK-6GL.text" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "phc-GT-SmM"; */
+"phc-GT-SmM.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Add to Cart"; ObjectID = "poc-ol-5Ao"; */
+"poc-ol-5Ao.normalTitle" = "أضف الى السلة";
+
+/* Class = "UILabel"; text = "Reorder"; ObjectID = "qNT-oY-J0b"; */
+"qNT-oY-J0b.text" = "إعادة الطلب";
+
+/* Class = "UITextField"; placeholder = "Floor Number"; ObjectID = "qYl-zB-QXE"; */
+"qYl-zB-QXE.placeholder" = "رقم الطابق";
+
+/* Class = "UILabel"; text = "Salmiya BLOCK 10 STREET 6 BUILDING 123 floor 10"; ObjectID = "qrJ-af-Cto"; */
+"qrJ-af-Cto.text" = "";
+
+/* Class = "UILabel"; text = "Order ID"; ObjectID = "qt9-Iu-ZOG"; */
+"qt9-Iu-ZOG.text" = "رقم الطلب";
+
+/* Class = "UILabel"; text = "3.800"; ObjectID = "rqN-BS-tHS"; */
+"rqN-BS-tHS.text" = "";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "sXW-DA-Aeu"; */
+"sXW-DA-Aeu.text" = "السعر";
+
+/* Class = "UITextField"; placeholder = "Floor Number"; ObjectID = "sgK-Yr-XAW"; */
+"sgK-Yr-XAW.placeholder" = "رقم الطابق";
+
+/* Class = "UIButton"; normalTitle = "Edit Address"; ObjectID = "tGm-nK-jyG"; */
+"tGm-nK-jyG.normalTitle" = "تعديل عنوان";
+
+/* Class = "UILabel"; text = "Sort by"; ObjectID = "trK-Wg-HaQ"; */
+"trK-Wg-HaQ.text" = "رتب حسب";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "uAD-jh-gRW"; */
+"uAD-jh-gRW.text" = "";
+
+/* Class = "UILabel"; text = "Discount"; ObjectID = "uNI-92-GkT"; */
+"uNI-92-GkT.text" = "الخصم";
+
+/* Class = "UILabel"; text = "5 persons"; ObjectID = "ukm-Gc-tL6"; */
+"ukm-Gc-tL6.text" = "";
+
+/* Class = "UILabel"; text = "Shop Name"; ObjectID = "v63-mu-I3r"; */
+"v63-mu-I3r.text" = "";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "vUj-Fg-d7F"; */
+"vUj-Fg-d7F.text" = "السعر";
+
+/* Class = "UILabel"; text = "Order Date"; ObjectID = "vwt-PU-foO"; */
+"vwt-PU-foO.text" = "تاريخ الطلب";
+
+/* Class = "UITextField"; placeholder = "Address Name*"; ObjectID = "y2S-iQ-hqs"; */
+"y2S-iQ-hqs.placeholder" = "اسم العنوان*";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "y7d-eb-gXe"; */
+"y7d-eb-gXe.text" = "السعر";
+
+/* Class = "UITextField"; placeholder = "Apt. Number"; ObjectID = "yeQ-Hd-Wwb"; */
+"yeQ-Hd-Wwb.placeholder" = "رقم الشقة";
+
+/* Class = "UILabel"; text = "Delivery Address"; ObjectID = "yj6-KR-EEN"; */
+"yj6-KR-EEN.text" = "عنوان التوصيل";
+"PMH-tD-f42.text" = "د.ك";
+"xZF-q7-DyP.normalTitle" = "تطبيق";
+"f9g-X0-27q.normalTitle" = "تطبيق";
